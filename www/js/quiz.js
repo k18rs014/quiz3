@@ -224,7 +224,7 @@ function displayQuiz(quiz){
     array[4] = quiz.get("answer");
     
     //正解とダミーの選択肢をランダムに入れ替える
-    var index = Math.floor(Math.random() * 3);
+    var index = Math.floor(Math.random() * 4);
     var tmp = array[index];
     array[index] = array[3];
     array[3] = tmp;
